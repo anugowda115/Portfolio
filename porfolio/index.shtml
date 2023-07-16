@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Anusha Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./images/logo.png" />
+    <!-- favicon -->
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Fontawesome -->
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet"> 
+    <!-- Google Font -->
+
+    <link rel="stylesheet" href="./css/stars.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+</head>
+
+<body>
+    <main class="wrapper">
+        <header>
+            <div id="stars-container">
+                <div id='stars'></div>
+                <div id='stars2'></div>
+                <div id='stars3'></div>
+            </div>
+            <div class="top-header">
+                <div class="container my-profile">            
+                    <div class="inner-top-header">
+                        <div class="container">
+                            <div class="anu-logo"><img src="./images/logo.png" alt="Anu Logo" style="width: 80px;"></div>
+                            <ul class="social-connection">
+                                <li><a href="https://www.linkedin.com/feed/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li><a href="https://github.com/anugowda115/" target="_blank" title="Linkedin"><i class="fa-brands fa-github"></i></a></li>
+                                <li><a href="https://twitter.com/Anusha1355" target="_blank" title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="mailto:anugowda115@gmail.com" target="_blank" title="Twitter"><i class="fa-solid fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="anusha">
+                        <img src="images/anu2-portfolio.png" alt="">
+                    </div> -->
+                    <div class="inner-bottom-banner">
+                        <div class="text-name">
+                            <h1>Hi, I'm Anusha</h1>
+                            <h2 class="typing-demo">Web Developer</h2>
+                        </div>
+                        <a href="#my-skills-wrapper" class="scroll-down-wrap">
+                            <div class="mousey">
+                                <div class="scroller"></div>
+                            </div>
+                            <span>Learn More About What I Do</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- About Sections -->
+
+        
+        <div class="training-experience-wrap">
+            <div class="container">
+                <div class="inner-training-container">
+                    <div class="details-about">
+                        <h6>Education</h6>
+                        <h3>MCA Graduate</h3>
+                    </div>
+                    <div class="details-about">
+                        <h6>Training & Experience</h6>
+                        <h3>2 + Years</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="about-anush-wraper">
+            <div class="container">
+                <div class="inner-about-myself-container">
+                    <hr class="line-hr">
+                    <article class="name-about">
+                        <h2>About Me</h2>
+                        <h3>Web Developer</h3>
+                    </article>
+                    <div class="about-me-wrap">
+                        <p>My Name is Anusha R. K. Although I started my career as a front-end developer On October 2021. I enjoy working on websites and web development from start to completion. I built many websites using HTML, Css and JavaScript. I am eager to learn more programming languages and build my technology stack.</p>
+                        <p>I also maintain communication channels about important web development stages with clients. In my experience, communicating about the project's progress can ensure client satisfaction. I typically send emails to clients about the ongoing websites. If they are available to review my work, I prepare interactive presentations. I also use simple words and analogies to explain technical concepts.</p>
+                        <p>I'm passionate about everything that goes into making websites work well and look beautiful. The web is my passion because it’s where I can find the most exciting projects to work on. It’s also where I get to express my creativity in ways that are hard to find elsewhere.</p>
+                        <div class="counter-sec-wrap">
+                            <a class="num-count-box" href="#tab01">
+                                <div class="num-count-div">
+                                    <div class="icon-log green"><img src="./images/briefcase.png" alt="Number Count"></div>
+                                    <div class="plus"><span id="counter" class="counter-value" data-count="9"></span><span>+</span></div>
+                                </div>
+                                <h6>Realtime Projects</h6>
+                            </a>
+                            <a class="num-count-box" href="#tab02">
+                                <div class="num-count-div">
+                                    <div class="icon-log blue"><img src="./images/learning.png" alt="Number Count"></div>
+                                    <div class="plus"><span id="counter" class="counter-value" data-count="8"></span><span>+</span></div>
+                                </div>
+                                <h6>Ongoing Projects</h6>
+                            </a>
+                            <a class="num-count-box" href="#tab03">
+                                <div class="num-count-div">
+                                    <div class="icon-log pink"><img src="./images/briefing.png" alt="Number Count"></div>
+                                    <div class="plus"><span id="counter" class="counter-value" data-count="5"></span><span>+</span></div>
+                                </div>
+                                <h6>Training Projects</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="./downloads/Latest-resume-anu.pdf" target="_blank" class="btn">Get Resume <span>&#x2193;</span></a>
+                </div>
+            </div>
+        </section>
+        <!-- About Sections -->
+
+          <!-- My Skills -->
+          <section id="my-skills-wrapper">
+             <div class="partcile-dec">
+                <div class="overlay"></div>
+                <canvas style="display: block; background: rgba(255, 255, 255, 0);" width="1536" height="451"></canvas>
+            </div>
+            <hr class="line-hr">
+            <article class="name-about">
+                <h2>My Skills</h2>
+                <h3>Html, Css, Javascript, JQuery Plugins</h3>
+            </article>
+            <div class="inner-circular-progress">
+                <div class="container">
+                    <div class="container-skills">
+                        <div class="box">
+                          <div class="chart" data-percent="95" data-scale-color="#ffb400">95%</div>
+                          <h2>Html5</h2>
+                        </div>
+                        <div class="box">
+                          <div class="chart" data-percent="90" data-scale-color="#ffb400">90%</div>
+                          <h2>Css3</h2>
+                        </div>
+                        <div class="box">
+                          <div class="chart" data-percent="90" data-scale-color="#ffb400">90%</div>
+                          <h2>Media Query</h2>
+                        </div>
+                        <div class="box">
+                          <div class="chart" data-percent="70" data-scale-color="#ffb400">70%</div>
+                          <h2>Bootstrap</h2>
+                        </div>
+                        <div class="box">
+                          <div class="chart" data-percent="50" data-scale-color="#ffb400">50%</div>
+                          <h2>Javascript</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- My Skills -->
+
+        <!-- Projects Done -->
+        <section class="projects-done-wraper">
+            <div class="container">
+                <div class="inner-projects-done-container">
+                    <hr class="line-hr">
+                    <article class="name-about">
+                        <h2>Project Details</h2>
+                    </article>
+                </div>
+            </div>
+
+            <span id="tab01"></span>
+            <div class="project-type">
+                <div class="container">
+                    <h3>RealTime Projects</h3>
+                    <div class="inner-scroller-project">
+                        <article class="section-of-projects">
+                            <span class="project-number">01.</span>
+                            <a href="https://www.spucmain.ac.in/" target="_blank" class="project-images"><img src="./images/projects/spuc-main.png" alt=""></a>
+                            <h3 class="project-name">Spuc Main</h3>
+                             <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">02.</span>
+                            <a href="https://www.sabs.ac.in/" target="_blank" class="project-images"><img src="./images/projects/sabs.png" alt=""></a>
+                            <h3 class="project-name">Sabs</h3>
+                             <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">03.</span>
+                            <a href="https://mvmschool.edu.in/" target="_blank" class="project-images"><img src="./images/projects/mvmschool.png" alt=""></a>
+                            <h3 class="project-name">MVM School</h3>
+                             <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">04.</span>
+                            <a href="https://spuc.ac.in/" target="_blank" class="project-images"><img src="./images/projects/spuc-kengeri.png" alt=""></a>
+                            <h3 class="project-name">Spuc Kengeri</h3>
+                             <hr class="line-hr1">
+                        </article>
+                        
+                        <article class="section-of-projects">
+                            <span class="project-number">05.</span>
+                            <a href="https://www.sipuc.ac.in/" target="_blank" class="project-images"><img src="./images/projects/sipuc-magadi.png" alt=""></a>
+                            <h3 class="project-name">SIPUC Magadi</h3>
+                             <hr class="line-hr1">
+                        </article>
+                        
+                        <article class="section-of-projects">
+                            <span class="project-number">06.</span>
+                            <a href="https://spmcollege.ac.in/" target="_blank" class="project-images"><img src="./images/projects/spmcollege.png" alt=""></a>
+                            <h3 class="project-name">Spm College</h3>
+                             <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">07.</span>
+                            <a href="https://gat.ac.in/ciisca2023" target="_blank" class="project-images"><img src="./images/projects/cissca.png" alt=""></a>
+                            <h3 class="project-name">Gat / ciisca</h3>
+                             <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">08.</span>
+                            <a href="https://www.vishwagramodaya.org/" target="_blank" class="project-images"><img src="./images/projects/vishwagramodaya.png" alt=""></a>
+                            <h3 class="project-name">Vishwagramodaya</h3>
+                             <hr class="line-hr1">
+                        </article>
+
+                        <article class="section-of-projects">
+                            <span class="project-number">09</span>
+                            <a href="https://www.charigangroup.com/" target="_blank" class="project-images"><img src="./images/projects/charigan.png" alt=""></a>
+                            <h3 class="project-name">Charigan Group</h3>
+                             <hr class="line-hr1">
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <span id="tab02"></span>
+            <div class="project-type">
+                <div class="container">
+                    <h3>Ongoing Projects</h3>
+                    <div class="inner-scroller-project">
+                        <article class="section-of-projects">
+                            <h2 class="project-number">01.</h2>
+                            <a href="http://demo.swaragh.co.in/dr.aniruddh-v5/" target="_blank" class="project-images"><img src="./images/projects/aniruddh.png" alt="aniruddh"></a>
+                            <h3 class="project-name">Dr Aniruddh</h3>
+                            <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <h2 class="project-number">02.</h2>
+                            <a href="http://demo.swaragh.co.in/blue-rocks-v4/" target="_blank" class="project-images"><img src="./images/projects/blue-rocks.png" alt=""></a>
+                            <h3 class="project-name">Blue Rocks</h3>
+                            <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">03.</span>
+                            <a href="https://demo.swaragh.co.in/zas-v3/" target="_blank" class="project-images"><img src="./images/projects/zas.png" alt=""></a>
+                            <h3 class="project-name">ZAS</h3>
+                            <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">04.</span>
+                            <a href="https://demo.swaragh.co.in/mindproductions-v4/" target="_blank" class="project-images"><img src="./images/projects/mindzproductionz.png" alt=""></a>
+                            <h3 class="project-name">MindProductions</h3>
+                            <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">05.</span>
+                            <a href="https://demo.swaragh.co.in/rtpl-v4/" target="_blank" class="project-images"><img src="./images/projects/rtpl.png" alt=""></a>
+                            <h3 class="project-name">RTPL</h3>
+                            <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">06.</span>
+                            <a href="https://demo.swaragh.co.in/hgr-v3/" target="_blank" class="project-images"><img src="./images/projects/hgr.png" alt=""></a>
+                            <h3 class="project-name">PGSPM</h3>
+                            <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">07.</span>
+                            <a href="https://demo.swaragh.co.in/jnanajyothi-v3/" target="_blank" class="project-images"><img src="./images/projects/jnanajyoti.png" alt=""></a>
+                            <h3 class="project-name">PGSPM</h3>
+                            <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">08.</span>
+                            <a href="https://ws.swaragh.co.in/set/web/pgspm-v2/" target="_blank" class="project-images"><img src="./images/projects/pgspm.png" alt=""></a>
+                            <h3 class="project-name">PGSPM</h3>
+                            <hr class="line-hr1">
+                        </article>
+                    </div>
+                 </div>
+            </div>
+
+            <span id="tab03"></span>
+            <div class="project-type">
+                <div class="container">
+                    <h3>Training Projects</h3>
+                    <div class="inner-scroller-project">
+                        <article class="section-of-projects">
+                            <h2 class="project-number">01.</h2>
+                            <a href="https://demo.swaragh.co.in/new-designs/wedding-anu-1/" target="_blank" class="project-images"><img src="./images/projects/marriage.png" alt="aniruddh"></a>
+                            <h3 class="project-name">Wedding Marriage</h3>
+                            <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <h2 class="project-number">02.</h2>
+                            <a href="https://demo.swaragh.co.in/new-designs/cargo-anu-1/" target="_blank" class="project-images"><img src="./images/projects/KGS.png" alt=""></a>
+                            <h3 class="project-name">KGS</h3>
+                            <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">03.</span>
+                            <a href="https://demo.swaragh.co.in/new-designs/narayani-divine-cafe-anu-1/" target="_blank" class="project-images"><img src="./images/projects/Devine-Cafee.png" alt=""></a>
+                            <h3 class="project-name">Devine Cafe</h3>
+                            <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">04.</span>
+                            <a href="https://demo.swaragh.co.in/new-designs/real-estate-anu-2/" target="_blank" class="project-images"><img src="./images/projects/Real-Estate.png" alt=""></a>
+                            <h3 class="project-name">Real Estate</h3>
+                            <hr class="line-hr1">
+                        </article>
+                        <article class="section-of-projects">
+                            <span class="project-number">05.</span>
+                            <a href="https://demo.swaragh.co.in/new-designs/narayani-mahal-anu-1" target="_blank" class="project-images"><img src="./images/projects/Narayani-Wedding-Mahal.png" alt=""></a>
+                            <h3 class="project-name">Narayani Mahal</h3>
+                            <hr class="line-hr1">
+                        </article>
+                    </div>
+                 </div>
+            </div>
+        </section>
+        <!-- Projects Done -->
+    
+
+        <!-- Contact Us -->
+        <section class="contact-wrapper">
+            <div class="container">
+                <div class="inner-contact-us">
+
+                </div>
+            </div>
+        </section>
+        <!-- Contact Us -->
+
+        <footer>
+            <div class="container">
+                <div class="inner-footer">
+                    <p>&copy; <span id="current-year"></span> Design & Developed By Anusha</p>
+                    <!-- <a href="index"><img src="./images/logo.png" alt="Footer-logo"></a> -->
+                </div>
+            </div>
+            <a id="to-top" href="javascript:void(0)" title="Go to top"><img src="images/up-arrow.png" alt="Up Arrow"></a>
+        </footer>
+
+        <div class="cursor"></div>
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./js/slider.js"></script>
+    
+
+    <script>
+        // current year
+            document.getElementById("current-year").innerHTML = new Date().getFullYear();
+            // current year
+        </script>
+    <script>
+        window.onscroll = function () {
+            scrollFunction()
+        };
+        function scrollFunction() {
+            if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+                $(".inner-top-header").addClass("fadeInDown sticky");
+            } else {
+                $(".inner-top-header").removeClass("fadeInDown sticky");
+            }
+        }
+    </script>
+
+<!-- <script src="https://qmixi.github.io/slide-nav/dist/slideNav.js"></script>
+  <script>window.slide = new SlideNav();</script> -->
+
+<!-- Custom Cursor -->
+<script>
+    const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+    
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
+})
+</script>
+<!-- Custom Cursor -->
+
+<!-- My Skills -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
+<script>
+   $(function() {
+  $('.chart').easyPieChart({
+    size: 160,
+    barColor: "#f7c113",
+    scaleLength: 0,
+    lineWidth: 5,
+    trackColor: "#373737",
+    lineCap: "circle",
+    animate: 2000,
+  });
+});
+</script>
+<!-- My Skills -->
+
+
+<!-- number section -->
+<script>
+    var a=0;$(window).scroll(function(){var t=$("#counter").offset().top-window.innerHeight;0==a&&$(window).scrollTop()>t&&($(".counter-value").each(function(){var t=$(this),n=t.attr("data-count");$({countNum:t.text()}).animate({countNum:n},{duration:4e3,easing:"swing",step:function(){t.text(Math.floor(this.countNum))},complete:function(){t.text(this.countNum)}})}),a=1)});
+  </script>
+<!-- number section -->
+
+
+<script>
+    // go to top
+    $("#to-top").hide(), $(window).scroll(function () { $(this).scrollTop() > 100 ? $("#to-top").fadeIn() : $("#to-top").fadeOut() }), $("#to-top").click(() => ($("body,html").animate({ scrollTop: 0 }, 1500), !1));
+    // go to top
+</script>
+</body>
+
+</html>
